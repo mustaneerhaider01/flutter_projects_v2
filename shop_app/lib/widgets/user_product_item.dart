@@ -38,7 +38,7 @@ class UserProductItem extends StatelessWidget {
                 ),
                 IconButton(
                   icon: const Icon(Icons.delete),
-                  color: Theme.of(context).errorColor,
+                  color: Theme.of(context).colorScheme.error,
                   onPressed: () async {
                     try {
                       await Provider.of<Products>(context, listen: false)
@@ -53,7 +53,7 @@ class UserProductItem extends StatelessWidget {
                               color: theme.primaryTextTheme.titleMedium!.color,
                             ),
                           ),
-                          backgroundColor: theme.errorColor,
+                          backgroundColor: theme.colorScheme.error,
                         ),
                       );
                     }

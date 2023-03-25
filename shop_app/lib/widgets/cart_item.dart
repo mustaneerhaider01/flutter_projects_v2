@@ -24,7 +24,7 @@ class CartItem extends StatelessWidget {
     return Dismissible(
       key: ValueKey(id),
       background: Container(
-        color: Theme.of(context).errorColor,
+        color: Theme.of(context).colorScheme.error,
         alignment: Alignment.centerRight,
         padding: const EdgeInsets.only(right: 20),
         margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 4),
@@ -55,7 +55,7 @@ class CartItem extends StatelessWidget {
                   Navigator.of(ctx).pop(true);
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Theme.of(context).errorColor,
+                  foregroundColor: Theme.of(context).colorScheme.error,
                 ),
                 child: const Text('Yes'),
               ),
@@ -64,10 +64,7 @@ class CartItem extends StatelessWidget {
         );
       },
       onDismissed: (_) {
-        Provider.of<Cart>(
-          context,
-          listen: false,
-        ).removeItem(productId);
+        Provider.of<Cart>(context, listen: false).removeItem(productId);
       },
       child: Card(
         margin: const EdgeInsets.symmetric(horizontal: 15, vertical: 4),

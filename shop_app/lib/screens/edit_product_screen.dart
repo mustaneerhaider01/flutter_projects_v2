@@ -128,7 +128,7 @@ class _EditProductScreenState extends State<EditProductScreen> {
                   Navigator.of(ctx).pop();
                 },
                 style: TextButton.styleFrom(
-                  foregroundColor: Theme.of(context).errorColor,
+                  foregroundColor: Theme.of(context).colorScheme.error,
                 ),
                 child: const Text('Okay'),
               ),
