@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "92134361524",
+    "project_id": "chatgpt-clone-f6c77",
+    "storage_bucket": "chatgpt-clone-f6c77.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92134361524:android:6111ed26e18ec160930ae1",
+        "android_client_info": {
+          "package_name": "com.example.fastify_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92134361524-kc2ed9degea7iorfag2s80j9cm7rthnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfmPkckjvof_e21ICXhrsAyDIa5nxmVjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92134361524-9tga09j02isj877r9jr7ea5er9tjaf3j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "92134361524-4vs2acvalmde9q8m6ast2lvaodgv542v.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatGptClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
